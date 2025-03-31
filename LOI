@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Kế Kiến Trúc - Lê Công Lợi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Dịch Vụ Thiết Kế Kiến Trúc - Lê Công Lợi</div>
+    <div class="content">
+        <h2>Chúng tôi mang đến những thiết kế sáng tạo và tối ưu</h2>
+        <p>Liên hệ ngay để nhận tư vấn miễn phí!</p>
+        <button class="btn" onclick="alert('Cảm ơn bạn đã quan tâm! Chúng tôi sẽ liên hệ sớm.')">Liên Hệ Ngay</button>
+    </div>
+</body>
+</html>
